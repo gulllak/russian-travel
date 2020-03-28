@@ -1,0 +1,16 @@
+.comments__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    grid-template-columns: minmax(min-content, 382px);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 48px;
+    grid-column-gap: 0;
+    justify-content: center;
+
+  }
+}

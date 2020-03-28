@@ -1,0 +1,19 @@
+@import url("../website/__url-heading/website__url-heading.css");
+@import url("../website/__url/website__url.css");
+
+.website {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width: 375px) {
+  .website {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    display: none;
+  }
+}

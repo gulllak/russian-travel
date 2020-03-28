@@ -1,0 +1,22 @@
+.content-subtitle {
+  max-width: 640px;
+  margin: 48px auto 72px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .content-subtitle {
+    margin: 24px auto 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-subtitle {
+    margin: 16px auto 24px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

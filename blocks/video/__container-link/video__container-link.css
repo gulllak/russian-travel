@@ -1,0 +1,23 @@
+.video__container-link {
+  margin-right: 18px;
+}
+
+.video__container-link:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__container-link {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container-link {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .video__container-link:last-of-type {
+    margin-bottom: 0;
+  }
+}

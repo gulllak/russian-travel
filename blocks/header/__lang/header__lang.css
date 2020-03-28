@@ -1,0 +1,36 @@
+.header__lang {
+  width: 30px;
+  height: 23px;
+  font-size: 1.5rem;
+  line-height: 1.43rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__lang:first-of-type {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang {
+    width: 30px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+  .header__lang:first-of-type {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    width: 30px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .header__lang:first-of-type {
+    margin-right: 16px;
+  }
+}

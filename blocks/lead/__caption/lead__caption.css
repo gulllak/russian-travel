@@ -1,0 +1,34 @@
+.lead__caption {
+  max-width: 636px;
+  max-height: 10px;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__caption {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__caption {
+    margin-top: 8px;
+  }
+}

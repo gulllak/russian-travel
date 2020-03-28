@@ -1,0 +1,31 @@
+@import url("../cover-bg/cover-bg.css");
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto 160px;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  text-decoration-line: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 100%;
+    margin: 0 auto 102px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover {
+    max-width: 100%;
+    margin: 0 auto 64px;
+  }
+}

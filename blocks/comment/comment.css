@@ -1,0 +1,16 @@
+@import url("../comment/__image/comment__image.css");
+@import url("../comment/__quote/comment__quote.css");
+@import url("../comment/__author/comment__author.css");
+
+.comment {
+  max-width: 382px;
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+  }
+}
