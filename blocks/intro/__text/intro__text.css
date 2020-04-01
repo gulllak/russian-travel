@@ -3,18 +3,20 @@
   line-height: 1.5rem;
   color: #FFFFFF;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 375px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 12px;
+    line-height: 19px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 12px;
+    line-height: 19px;
   }
 }

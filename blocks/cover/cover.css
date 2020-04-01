@@ -1,13 +1,19 @@
-@import url("../cover-bg/cover-bg.css");
+@import url("../cover/__cover-bg/cover-bg.css");
+@import url("../cover/__title/cover__title.css");
+@import url("../cover/__subtitle/cover__subtitle.css");
 
 .cover {
   max-width: 1184px;
   margin: 0 auto 160px;
   display: grid;
-  grid-template-columns: minmax(min-content, max-content);
-  grid-template-rows: repeat(3, auto);
-  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: stretch;
   text-decoration-line: none;
+}
+
+.cover:hover .cover__cover-bg{
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,6 +24,7 @@
 
 @media screen and (max-width: 768px) {
   .cover {
+    grid-template-rows: 1fr 1fr 1fr;
     max-width: 100%;
     margin: 0 auto 102px;
   }

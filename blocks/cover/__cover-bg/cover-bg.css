@@ -1,0 +1,15 @@
+.cover__cover-bg {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  width: 100%;
+  object-fit: contain;
+  box-sizing: content-box;
+  transition: 1s linear;
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__cover-bg {
+    height: 216px;
+  }
+}

@@ -1,4 +1,6 @@
 .header__choice-lang {
   display: flex;
   margin-top: 17px;
+  list-style-type: none;
+  padding-left: 0;
 }

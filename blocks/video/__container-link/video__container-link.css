@@ -1,5 +1,6 @@
 .video__container-link {
   margin-right: 18px;
+  font-size: 0;
 }
 
 .video__container-link:last-of-type {

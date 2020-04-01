@@ -7,13 +7,13 @@
   .place__paragraphs {
     grid-column: 1/2;
     grid-row: 3/4;
-    max-width: 343px;
+    max-width: 91.46vw;
     margin: auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraphs {
-    max-width: 288px;
+    max-width: 90vw;
   }
 }

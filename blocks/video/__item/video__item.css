@@ -2,6 +2,8 @@
   max-width: 583px;
   max-height: 323px;
   position: relative;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .video__item:hover .video__item-bg{
