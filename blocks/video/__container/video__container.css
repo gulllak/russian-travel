@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {

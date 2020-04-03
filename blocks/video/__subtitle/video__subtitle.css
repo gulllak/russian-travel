@@ -1,8 +1,4 @@
 .video__subtitle {
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
-  max-width: 50%;
   margin: 0;
   font-size: 14px;
   line-height: 15px;
@@ -11,28 +7,25 @@
 
 @media screen and (max-width: 1024px) {
   .video__subtitle {
-    bottom: 35px;
-    max-width: 285px;
+    font-size: 1.3671875vw;
+    line-height: 1.46484375vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .video__subtitle {
-    left: 24px;
-    bottom: 24px;
-  }
+    font-size: 1.823vw;
+    line-height: 1.953125vw;
 }
 
 @media screen and (max-width: 375px) {
   .video__subtitle {
-    max-width: 297px;
-  }
+    font-size: 3.73vw;
+    line-height: 4vw;
 }
 
 @media screen and (max-width: 320px) {
   .video__subtitle {
-    left: 16px;
-    bottom: 16px;
-    max-width: 256px;
-  }
+    font-size: 14px;
+    line-height: 15px;
 }

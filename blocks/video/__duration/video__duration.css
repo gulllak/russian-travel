@@ -1,8 +1,4 @@
 .video__duration {
-  position: absolute;
-  left: 30px;
-  bottom: 146px;
-  max-width: 10%;
   margin: 0;
   font-weight: 500;
   font-size: 12px;
@@ -13,20 +9,24 @@
 
 @media screen and (max-width: 1024px) {
   .video__duration {
-    bottom: 151px;
+    font-size: 1.171875vw;
+    line-height: 1.26953125vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .video__duration {
-    left: 24px;
-    bottom: 106px;
-  }
+    font-size: 1.5625vw;
+    line-height: 1.7vw;
 }
 
+@media screen and (max-width: 375px) {
+  .video__duration {
+    font-size: 3.2vw;
+    line-height: 3.47vw;
+}
 @media screen and (max-width: 320px) {
   .video__duration {
-    left: 16px;
-    bottom: 87px;
-  }
+    font-size: 12px;
+    line-height: 13px;
 }
