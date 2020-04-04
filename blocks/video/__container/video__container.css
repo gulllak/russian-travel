@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,8 +17,9 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .video__container {
     flex-direction: column;
+    max-width: 550px;
   }
 }

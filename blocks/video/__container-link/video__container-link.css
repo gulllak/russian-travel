@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .video__container-link {
     margin-right: 0;
     margin-bottom: 8px;

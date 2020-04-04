@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .video__item-bg {
+    max-height: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .video__item-bg {
     height: 192px;

@@ -18,15 +18,18 @@
   .video__duration {
     font-size: 1.5625vw;
     line-height: 1.7vw;
+  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .video__duration {
     font-size: 3.2vw;
     line-height: 3.47vw;
+  }
 }
 @media screen and (max-width: 320px) {
   .video__duration {
     font-size: 12px;
     line-height: 13px;
+  }
 }

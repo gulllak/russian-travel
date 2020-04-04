@@ -21,9 +21,10 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .video__item {
-    max-width: 343px;
+    max-width: 92%;
+    margin: 0 auto;
   }
 }
 
